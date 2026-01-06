@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>F1 Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+
+  <div id="startBox">
+    <h1>Formula 1 Quiz</h1>
+    <button class="btn start-btn" onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <div id="quizBox">
+    <h2 id="questionText"></h2>
+
+    <div id="optionsBox"></div>
+
+    <button class="btn next-btn" onclick="nextQuestion()">Next</button>
+  </div>
+
+  <div id="resultBox">
+    <h2>Quiz Completed</h2>
+    <p class="score" id="finalScore"></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
